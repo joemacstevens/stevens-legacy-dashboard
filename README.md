@@ -15,6 +15,8 @@ View your app in AI Studio: https://ai.studio/apps/drive/1mihXy-sg0rOQWcQuY70usf
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set API keys in `.env.local` (create if missing):
+   - `GEMINI_API_KEY=<your Gemini key>`
+   - `VITE_FMP_API_KEY=<your Financial Modeling Prep key>` (needed for live performance charts)
 3. Run the app:
    `npm run dev`
